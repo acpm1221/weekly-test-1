@@ -1,7 +1,7 @@
 import "./form.css";
 import { useState } from "react";
 const Form = () => {
-  //different String that can be included-------------
+  
   const upper = "ABCDEFGFIJKLMNOPQRSTUVWXYZ";
   const lower = upper.toLowerCase();
   const symbol = "!@#$%^&*~<>/?";
@@ -12,7 +12,7 @@ const Form = () => {
   const [numCheck, setnumCheck] = useState(true);
   const [symbolCheck, setsymbolCheck] = useState(true);
 
-  // generating string based on what checkboxes are checked
+  
   function generate_string() {
     if (
       upperCheck === false &&
